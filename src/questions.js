@@ -1,3 +1,5 @@
+// question store
+
 export const questions = [
   {
     question: 'A line which cuts a pair of parallel lines is called',
