@@ -1,38 +1,116 @@
-.App {
+body {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.box {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.left {
+  width: 30%;
+}
+
+.right {
+  width: 70%;
+}
+
+.paper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  border: 1px solid #000;
+}
+
+.reviewAnswers {
+  width: 60%;
+}
+
+.questions {
+  width: 90%;
+}
+
+.icon {
+  font-size: 30px;
+}
+
+.questions__button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.btn {
+  color: antiquewhite;
+  background-color: red;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn:hover {
+  background-color: #e1b6b6;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ft-12 {
+  font-size: 1.2rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.ft-15 {
+  font-size: 1.5rem;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+.fw-normal {
+  font-weight: normal;
+}
+
+.questions__display {
+  padding: 20px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.questions__option {
+  padding: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-submit {
+  width: 200px;
+}
+
+.questions__submit {
+  flex: 1;
+  align-self: end;
+  padding: 4px 20px;
+  display: flex;
+}
+
+.as-end {
+  align-self: end;
+}
+.success_icon {
+  font-size: 70px;
+  color: lightgreen;
 }
