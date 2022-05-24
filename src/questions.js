@@ -3,8 +3,8 @@
 export const questions = [
   {
     question: 'A line which cuts a pair of parallel lines is called',
-    options: ['Tangent', 'Chord', 'Traversal', 'Intersector'],
-    answer: 'Chord',
+    options: ['Tangent', 'Chord', 'Transversal', 'Intersector'],
+    answer: 'Transversal',
   },
   {
     question:
@@ -16,6 +16,6 @@ export const questions = [
     question:
       'A shopkeeper purchases 15 mangoes for Rs. 10 and sells them at 10 mangoes for Rs. 15. Thus, he earns a profit of',
     options: ['50%', '75%', '80%', '125%'],
-    answer: '80%',
+    answer: '125%',
   },
 ];
